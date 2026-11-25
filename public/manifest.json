@@ -1,0 +1,17 @@
+{
+  "name": "Comité de Ujieres",
+  "short_name": "Comité de Ujieres",
+  "description": "Registro de asistencia, visitas y turnos de servicio de la iglesia",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0d0f14",
+  "theme_color": "#0d0f14",
+  "icons": [
+    {
+      "src": "/assets/aistudio/Color-Borde-blanco_fcabe59b.png",
+      "sizes": "2533x1755",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

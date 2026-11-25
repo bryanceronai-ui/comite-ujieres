@@ -1,0 +1,6 @@
+{
+  "name": "Asistencia – Comité de Ujieres · IPUE Barakaldo",
+  "description": "Gestión de asistencia por reunión, gráficos, registro de simpatizantes y turnos del comité de ujieres de IPUE Barakaldo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

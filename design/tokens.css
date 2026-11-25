@@ -1,0 +1,219 @@
+:root {
+  color-scheme: dark;
+
+  /* =========================================================
+     1. COLORES DE FONDO Y SUPERFICIES
+     ========================================================= */
+  --bg-app: #0d0f14;
+  --bg-panel: #1a1d24;
+  --bg-surface-sub: #14171d;
+  --bg-input: #12151b;
+  --bg-btn-secondary: #222630;
+  --bg-btn-secondary-hover: #2a2f3c;
+  --bg-row-hover: #20242d;
+  --bg-row-hover-alt: #222731;
+  --bg-close-hover: #252a34;
+  --bg-surface-elevated: #262b36;
+  --bg-chip-hover: #2b303c;
+
+  /* =========================================================
+     2. BORDES Y DIVISORES
+     ========================================================= */
+  --border-topbar: #1c2029;
+  --border-footer: #1e222b;
+  --border-panel: #242832;
+  --border-divider: #222630;
+  --border-subcard: #282d39;
+  --border-modal: #2a2f3a;
+  --border-control: #2d3340;
+  --border-elevated: #343a47;
+  --border-control-hover: #3d4454;
+  --border-select-hover: #3e4656;
+  --border-chip-hover: #41495b;
+
+  /* =========================================================
+     3. TEXTO PRINCIPAL, SECUNDARIO Y SUTIL
+     ========================================================= */
+  --text-white: #ffffff;
+  --text-primary: #e6e8ec;
+  --text-strong: #d4d8e0;
+  --text-mid: #c7ccd6;
+  --text-body-modal: #a1a7b5;
+  --text-secondary: #9ca3b0;
+  --text-credit-footer: #9ca3af;
+  --text-muted: #8f96a4;
+  --text-muted-alt: #8a91a0;
+  --text-note: #858c9b;
+  --text-helper: #7c8393;
+  --text-footer: #6f7685;
+  --text-credit-top: #6b7280;
+  --text-placeholder-search: #636b7c;
+  --text-placeholder-input: #5c6373;
+  --text-placeholder-muted: #555c6b;
+  --text-placeholder-number: #4b5262;
+  --text-on-accent: #111318;
+
+  /* =========================================================
+     4. COLORES DE ACENTO Y SECCIÓN (PANTALLA DE INICIO Y MÓDULOS)
+     ========================================================= */
+  /* Naranja de acento (Registro, acciones principales, tabs activos) */
+  --accent-orange: #F2A65A;
+  --accent-orange-hover: #f5b473;
+  --accent-orange-bar-hover: #f7b878;
+  --accent-orange-link-hover: #f6b879;
+  --accent-orange-icon-bg: #382d24;
+  --accent-orange-soft-10: rgba(242, 166, 90, 0.10);
+  --accent-orange-soft-12: rgba(242, 166, 90, 0.12);
+  --accent-orange-soft-15: rgba(242, 166, 90, 0.15);
+  --accent-orange-soft-20: rgba(242, 166, 90, 0.20);
+  --accent-orange-row-today: rgba(242, 166, 90, 0.08);
+  --accent-orange-row-edit: rgba(242, 166, 90, 0.06);
+  --accent-orange-border-45: rgba(242, 166, 90, 0.45);
+  --accent-orange-border-70: rgba(242, 166, 90, 0.70);
+
+  /* Rojo coral (Tarjeta Gráficos) */
+  --accent-coral: #E06C65;
+  --accent-coral-icon-bg: #382426;
+  --accent-coral-border-80: rgba(224, 108, 101, 0.80);
+
+  /* Amarillo (Tarjetas Simpatizantes y Ruleta, destacados) */
+  --accent-yellow: #E8C547;
+  --accent-yellow-icon-bg: #36311d;
+  --accent-yellow-soft-15: rgba(232, 197, 71, 0.15);
+  --accent-yellow-border-80: rgba(232, 197, 71, 0.80);
+  --accent-gold-wheel: #F4C542;
+  --accent-gold-bright: #FFD84D;
+
+  /* Verde (Tarjeta Turnos del comité y estados positivos: hoy, Activo, Deshacer) */
+  --accent-green: #4ADE80;
+  --accent-green-icon-bg: #1e3429;
+  --accent-green-border-75: rgba(74, 222, 128, 0.75);
+  --status-emerald-500: #10b981;
+  --status-emerald-400: #34d399;
+  --status-emerald-300: #6ee7b7;
+  --status-emerald-200: #a7f3d0;
+  --status-emerald-bg-10: rgba(16, 185, 129, 0.10);
+  --status-emerald-bg-15: rgba(16, 185, 129, 0.15);
+  --status-emerald-bg-20: rgba(16, 185, 129, 0.20);
+  --status-emerald-border-30: rgba(16, 185, 129, 0.30);
+  --status-emerald-border-35: rgba(16, 185, 129, 0.35);
+  --status-emerald-border-50: rgba(52, 211, 153, 0.50);
+
+  /* Azul (Proyector #pantalla, controles de proyector y segmentos de ruleta) */
+  --accent-blue-sky: #38BDF8;
+  --accent-blue-soft: #7fb3f5;
+  --accent-blue: #3b82f6;
+  --accent-blue-deep: #1d4ed8;
+  --bg-blue-navy: #0c1c47;
+  --bg-pantalla-top: #162749;
+  --bg-pantalla-mid: #0b1428;
+  --bg-pantalla-edge: #050912;
+
+  /* Rojo de borrar y errores */
+  --danger-solid: #dc2626;        /* Tailwind red-600 */
+  --danger-solid-hover: #ef4444;  /* Tailwind red-500 */
+  --danger-accent: #EF4444;
+  --danger-text: #f87171;         /* Tailwind red-400 */
+  --danger-text-soft: #fca5a5;    /* Tailwind red-300 */
+  --danger-bg-10: rgba(239, 68, 68, 0.10);
+  --danger-bg-15: rgba(239, 68, 68, 0.15);
+  --danger-bg-20: rgba(239, 68, 68, 0.20);
+  --danger-border-35: rgba(239, 68, 68, 0.35);
+  --danger-border-40: rgba(239, 68, 68, 0.40);
+  --danger-border-60: rgba(239, 68, 68, 0.60);
+
+  /* Alertas y avisos ámbar */
+  --warning-amber-500: #f59e0b;
+  --warning-amber-400: #fbbf24;
+  --warning-amber-300: #fcd34d;
+  --warning-amber-200: #fde68a;
+  --warning-bg-10: rgba(245, 158, 11, 0.10);
+  --warning-border-40: rgba(245, 158, 11, 0.40);
+
+  /* Scrollbar */
+  --scrollbar-thumb: #2b303c;
+  --scrollbar-thumb-hover: #3a4150;
+
+  /* =========================================================
+     5. DEGRADADOS DE LAS TARJETAS Y PROYECTOR
+     ========================================================= */
+  --grad-card-orange: linear-gradient(180deg, rgba(242, 166, 90, 0.06) 0%, rgba(26, 29, 36, 0) 42%);
+  --grad-card-coral: linear-gradient(180deg, rgba(224, 108, 101, 0.06) 0%, rgba(26, 29, 36, 0) 42%);
+  --grad-card-yellow: linear-gradient(180deg, rgba(232, 197, 71, 0.06) 0%, rgba(26, 29, 36, 0) 42%);
+  --grad-card-green: linear-gradient(180deg, rgba(74, 222, 128, 0.06) 0%, rgba(26, 29, 36, 0) 42%);
+  --grad-pantalla: radial-gradient(ellipse at 50% 35%, #162749 0%, #0b1428 58%, #050912 100%);
+
+  /* =========================================================
+     6. TIPOGRAFÍAS Y TAMAÑOS
+     ========================================================= */
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+  --font-serif-lora: 'Lora', Georgia, serif;
+  --font-serif-playfair: 'Playfair Display', Georgia, serif;
+
+  --text-xs: 13px;
+  --text-sm: 14px;
+  --text-meta: 15px;
+  --text-table: 16px;
+  --text-base: 17px;
+  --text-input: 18px;
+  --text-empty-title: 19px;
+  --text-subhead: 20px;
+  --text-modal-title: 22px;
+  --text-panel-title: 24px;
+  --text-number-lg: 28px;
+  --text-emoji-card: 32px;
+  --text-hero-title: 44px;
+
+  /* =========================================================
+     7. RADIOS DE BORDE
+     ========================================================= */
+  --radius-badge: 6px;     /* rounded-md */
+  --radius-chip-box: 8px;  /* rounded-lg */
+  --radius-action: 10px;   /* rounded-[10px] */
+  --radius-panel: 12px;    /* rounded-xl / rounded-[12px] */
+  --radius-card-lg: 16px;  /* rounded-2xl */
+  --radius-pill: 9999px;   /* rounded-full */
+
+  /* =========================================================
+     8. ESPACIADOS Y DIMENSIONES
+     ========================================================= */
+  --container-max-w: 1900px;
+  --panel-aside-w: 420px;
+  --page-px: 24px;
+  --panel-p: 28px;
+  --input-p: 16px;
+  --btn-px: 28px;
+  --table-cell-py: 18px;
+  --gap-grid: 24px;
+  --card-top-bar-h: 3px;
+  --card-icon-box: 64px;
+  --home-card-min-h: 240px;
+  --topbar-min-h: 84px;
+  --logo-home-sm: 110px;
+  --logo-home-md: 160px;
+  --logo-topbar-sm: 52px;
+  --logo-topbar-md: 64px;
+
+  /* =========================================================
+     9. ALTURAS DE CAMPOS Y BOTONES
+     ========================================================= */
+  --height-input: 56px;
+  --height-input-compact: 50px;
+  --height-select-compact: 48px;
+  --height-btn: 52px;
+  --height-btn-lg: 54px;
+  --height-chip: 46px;
+  --height-btn-icon: 44px;
+  --height-btn-undo: 42px;
+
+  /* =========================================================
+     10. SOMBRAS Y TELÓN DE FONDO
+     ========================================================= */
+  --shadow-btn-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.10), 0 4px 6px -4px rgba(0, 0, 0, 0.10);
+  --shadow-accent-glow: 0 10px 15px -3px rgba(242, 166, 90, 0.20), 0 4px 6px -4px rgba(242, 166, 90, 0.20);
+  --shadow-tooltip: 0 20px 25px -5px rgba(0, 0, 0, 0.10), 0 8px 10px -6px rgba(0, 0, 0, 0.10);
+  --shadow-modal: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  --backdrop-modal: rgba(0, 0, 0, 0.75);
+  --backdrop-modal-strong: rgba(0, 0, 0, 0.80);
+}
